@@ -65,8 +65,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About Me.html" />
+    <Content Include="Contact Me.html" />
     <Content Include="index.html" />
+    <Content Include="Projects.html" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\main.js" />
+    <Content Include="Services.html" />
     <Content Include="Styles\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
