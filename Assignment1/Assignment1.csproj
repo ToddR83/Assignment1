@@ -68,15 +68,21 @@
     <Content Include="Contact Me.html" />
     <Content Include="index.html" />
     <Content Include="Projects.html" />
+    <Content Include="Scripts\foundation.min.js" />
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\main.js" />
     <Content Include="Services.html" />
+    <Content Include="Styles\foundation.min.css" />
     <Content Include="Styles\main.css" />
     <Content Include="About.html" />
+    <Content Include="Styles\Reset.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
