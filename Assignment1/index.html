@@ -8,35 +8,77 @@
     <link href="Styles/foundation.min.css" rel="stylesheet" />
     <link href="Styles/main.css" rel="stylesheet" />
 
-    <!--Nav Bar-->
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-            <a href="About.html">About Me</a>
-            <a href="Projects.html">Projects</a>
-            <a href="Services.html">Services</a>
-            <a href="Contact%20Me.html">Contact Me</a>
-        </li>
-    </ul>
+    <!--<script src="Scripts/modernizr.js"></script>-->
+
 </head>
 <body>
 
-    
-    <header id="welcome-header">Welcome To My Story!</header>
+
+    <!--Navbar by Foundation, modified by myself-->
+    <div>
+
+        <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#">My Site</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class ="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Todd</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="https://github.com/ToddR83" target="_blank">GitHub</a></li>
+                <li><a href="Contact Me.html">Contact Me</a></li>
+
+                <!--<li class="active"><a href="#">Right Button Active</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Right Button Dropdown</a>
+                    <ul class="dropdown">
+                        <li><a href="#">First link in dropdown</a></li>
+                        <li class="active"><a href="#">Active link in dropdown</a></li>
+                    </ul>
+                </li>-->
+            </ul>
+        </section>
+        </nav>
+
+    </div>
+
+
+    <div class=" row">
+        <div id="logo" class="small-6 medium-4 large-3 columns">
+            <img src="Images/Assignment%20Logo.png" />
+        </div>
+        <header id="welcome-header" class="small-6 medium-8 large-9  columns">
+            <h1>Welcome To My Story!</h1>
+        </header>
+    </div>
+
 
     <!--Welcome Statement-->
-    <p>
-        Welcome to my portfolio, and thank you for coming!<br />
-    <br />
-        My name is Todd Raymond and I am currently enrolled in the Computer Programmer Analyst program at Georgian College in Barrie, Ontario.  <br />
-    <br />
-        On this site you will find projects I am currently working on as well as ones that I have completed.  Please take the time to look around!
-    </p>
-
+    <div class="row">
+        
+        <div id="welcomeStatement">
+            <p>
+                Welcome to my portfolio, and thank you for coming!<br />
+                <br />
+                My name is Todd Raymond and I am currently enrolled in the Computer Programmer Analyst program at Georgian College in Barrie, Ontario.  <br />
+                <br />
+                On this site you will find projects I am currently working on as well as ones that I have completed.  Please take the time to look around!
+            </p>
+        </div>
+    </div>
     <!--Personal Tagline-->
+
+    <h2>Computer Programmer extraordinaire! I create video games using C#, Unity, Java, HTML, CSS,JavaScript and JQuery.</h2>
+    
     <p>
-        Computer Programmer extraordinaire! I create video games using C#, Unity, Java, HTML, CSS,JavaScript and JQuery.<br />
-        <br />
         While growing up, I, much like any other youngling, loved to play video games.  As time progressed I found that games became easier and seemingly less original.  At first I dismissed this,
         thinking that it was a natural progression of my growing talent for games.  A time came when I realized that perhaps there was more to it, that maybe there was room for change in the gamming
         industry, that if there were changes to be made I would endevor to find them and be a part of this new era of gamming.<br />
@@ -44,7 +86,7 @@
         I have always felt that the AI was too predictable in video games.  When I decided to get into programming I was not 100% sure what my end goal would be.  After studying for a time at school and
         really thinking about what I want to do, I have realized that I want to create more robust AI systems.  AI systems that do not feel robotic but instead feel organic, fluid....Alive...<br />
         <br />
-        Technology is moving forward with incredible speed.  With these new technologies availiable and those that are at the cusp of our understanding, I believe that video games are about to take the next
+        Technology is moving forward with incredible speed.  With all the new technologies availiable and those that are at the cusp of our understanding, I believe that video games are about to take the next
         step in their eveolution and I intend to be apart of this.
 
     </p>
@@ -52,6 +94,7 @@
     <!--JavaScript lives here-->
     <script src="Scripts/jquery.min.js"></script>
     <script src="Scripts/foundation.min.js"></script>
+
     <script>
         $(document).foundation();
     </script>

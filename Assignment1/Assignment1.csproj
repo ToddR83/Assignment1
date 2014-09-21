@@ -66,8 +66,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contact Me.html" />
+    <Content Include="humans.txt" />
+    <Content Include="Images\Assignment Logo.png" />
     <Content Include="index.html" />
     <Content Include="Projects.html" />
+    <Content Include="robots.txt" />
     <Content Include="Scripts\foundation.min.js" />
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\main.js" />
@@ -81,9 +84,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
