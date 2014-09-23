@@ -68,8 +68,12 @@
     <Content Include="Contact Me.html" />
     <Content Include="humans.txt" />
     <Content Include="Images\Assignment Logo.png" />
+    <Content Include="Images\placeholder1.jpg" />
+    <Content Include="Images\placeholder2.jpg" />
+    <Content Include="Images\placeholder3.jpg" />
+    <Content Include="Images\placeholder4.jpg" />
     <Content Include="index.html" />
-    <Content Include="Projects.html" />
+    <Content Include="My Projects.html" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\foundation.min.js" />
     <Content Include="Scripts\jquery.min.js" />
