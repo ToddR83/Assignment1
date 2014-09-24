@@ -1,9 +1,21 @@
-﻿<!DOCTYPE html>
+﻿<!---
+    Name: Todd Raymond
+    Website: "Todd Raymond's Portfolio"  www.toddraymond.com
+    Date: Sept 24th 2014
+    Desc: This is the main page to my Portfolio website.  Here you will be able to navigate by using the navigation bar at the top of the page.  You can view my projects by either
+          clicking on the images of my projects or clicking the button above them saying "Check Out My Projects Now!".  You will see a little bit about why I am in programming today.
+-->
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
     <meta charset="utf-8" />
+
     <title>Todd Raymond's Portfolio</title>
+
+    <!--Link to CSS files-->
     <link href="Styles/Reset.css" rel="stylesheet" />
     <link href="Styles/foundation.min.css" rel="stylesheet" />
     <link href="Styles/main.css" rel="stylesheet" />
@@ -27,6 +39,7 @@
 
             <section class="top-bar-section">
                 <!-- Right Nav Section -->
+                <!--You can get to any page on my website here as well as get to my GitHub.  This will also show you which page you are currently on.-->
                 <ul class="right">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="About.html">About Todd</a></li>
@@ -34,15 +47,6 @@
                     <li><a href="Services.html">Services</a></li>
                     <li><a href="https://github.com/ToddR83">GitHub</a></li>
                     <li><a href="Contact Me.html">Contact Me</a></li>
-
-                    <!--<li class="active"><a href="#">Right Button Active</a></li>
-                    <li class="has-dropdown">
-                        <a href="#">Right Button Dropdown</a>
-                        <ul class="dropdown">
-                            <li><a href="#">First link in dropdown</a></li>
-                            <li class="active"><a href="#">Active link in dropdown</a></li>
-                        </ul>
-                    </li>-->
                 </ul>
             </section>
         </nav>
@@ -51,6 +55,7 @@
 
 
     <div class=" row">
+        <!--My logo-->
         <div id="logo"class="small-5 medium-4 large-3 columns">
             
         </div>
@@ -78,31 +83,31 @@
         </div>
     </div>
 
-    <!--Call to action button-->
-
-
     <div class="row">
 
+        <!--Call to action button.  This will take you to My Projects.html where you can view completed as well as projects in production-->
         <div id="call-to-action" class="small-6 small-push-3 medium-4 medium-push-4 large-4 large-push-4">
             <a href="My Projects.html" class="button alert">Check Out My Projects Now!</a>
         </div>
 
+        <!--Orbit - Modified by me-->
+        <!--This is a slider that showcases photos of my projects.  You can click on them to get to the project on My Project.html-->
         <div id="test" class="small-6 small-push-3 medium-5 medium-push-3 large-5 large-push-3">
             <ul class="example-orbit" data-orbit>
                 <li>
 
-                    <img src="Images/placeholder1.jpg" />
-                    <div class="orbit-caption"> Caption One. </div>
+                    <a href="https://github.com/ToddR83/BookSales/tree/master/Lesson3-BookSales"><img src="Images/BookSales%20Project.png" /></a>
+                    <div class="orbit-caption"> Book Sales Project </div>
                 </li>
                 <li class="active">
 
-                    <img src="Images/placeholder2.jpg" />
-                    <div class="orbit-caption"> Caption Two. </div>
+                    <a href="http://darrylraymond.wix.com/darryl-and-susan"><img src="Images/D&S%20Wedding.png" /></a>
+                    <div class="orbit-caption"> Darryl &Aacute; Susan's Wedding </div>
                 </li>
                 <li>
 
-                    <img src="Images/placeholder3.jpg" />
-                    <div class="orbit-caption"> Caption Three. </div>
+                    <a href=" my%20projects.html"><img src="Images/DVSS.png" /></a>
+                    <div class="orbit-caption"> Darryl VS Susan: In Death Do They Part! </div>
                 </li>
             </ul>
         </div>
@@ -140,7 +145,7 @@
     </script>
     <script src="Scripts/main.js"></script>
 
-
-    <footer>Copyright &copy; 2014 by Todd Raymond</footer>
+    <!--This footer is a copy wright statement as well as gives "props" to Foundation as I used them to create this site.  Thank you Foundation!-->
+    <footer>Copyright &copy; 2014 by Todd Raymond.  Proudly created with <a href="http://foundation.zurb.com/"> foundation</a></footer>
 </body>
 </html>

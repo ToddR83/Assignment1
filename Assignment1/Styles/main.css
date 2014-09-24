@@ -1,4 +1,11 @@
-﻿body 
+﻿/*
+    Name: Todd Raymond
+    Website: "Todd Raymond's Portfolio" www.toddraymond.com
+    Date: Sept 24th 2014
+    Desc: Here I take information from my html pages and change how they look.
+*/
+
+body 
 {
     background-color:yellowgreen;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -7,6 +14,31 @@
 
 meta.foundation-data-attribute-namespace {
   font-family: false; }
+
+h4 
+{
+    text-align:center;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+#book-sales 
+{
+    margin-top:5em;
+    margin-bottom:5em;
+}
+
+#darryl-and-susan 
+{
+    margin-top:5em;
+    margin-bottom:5em;
+}
+
+#darryl-vs-susan 
+{
+    margin-top:5em;
+    margin-bottom:5em;
+}
 
 #logo
 {

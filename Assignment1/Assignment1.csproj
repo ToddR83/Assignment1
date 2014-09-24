@@ -68,13 +68,11 @@
   <ItemGroup>
     <Content Include="Contact Me.html" />
     <Content Include="Images\Assignment Logo3.png" />
+    <Content Include="Images\BookSales Project.png" />
+    <Content Include="Images\D&amp;S Wedding.png" />
+    <Content Include="Images\DVSS.png" />
     <Content Include="Images\Todd Raymond Resume.png" />
     <Content Include="humans.txt" />
-    <Content Include="Images\Assignment Logo.png" />
-    <Content Include="Images\placeholder1.jpg" />
-    <Content Include="Images\placeholder2.jpg" />
-    <Content Include="Images\placeholder3.jpg" />
-    <Content Include="Images\placeholder4.jpg" />
     <Content Include="index.html" />
     <Content Include="My Projects.html" />
     <Content Include="robots.txt" />
