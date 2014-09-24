@@ -22,6 +22,16 @@ h4
     margin-bottom:2em;
 }
 
+#my-services 
+{
+    text-align:center;
+}
+
+#services 
+{
+    margin-top:2em;
+    margin-bottom:2em;
+}
 #book-sales 
 {
     margin-top:5em;
@@ -44,7 +54,7 @@ h4
 {
     background-color:transparent;
     min-height:100px;
-    min-width:100px%;
+    min-width:100px;
 }
 
 #logo 
