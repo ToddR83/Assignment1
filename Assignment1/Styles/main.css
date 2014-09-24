@@ -8,16 +8,11 @@
 meta.foundation-data-attribute-namespace {
   font-family: false; }
 
-#logo 
+#logo
 {
     background-color:transparent;
-}
-
-#welcome-header 
-{
-    text-align: center;
-    font-size: 20px;
-    font-style: italic;
+    max-height:5%;
+    max-width:5%;
 }
 
 footer 
