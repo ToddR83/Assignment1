@@ -11,13 +11,25 @@ meta.foundation-data-attribute-namespace {
 #logo
 {
     background-color:transparent;
-    max-height:5%;
-    max-width:5%;
+    min-height:100px;
+    min-width:100px%;
 }
 
+#logo 
+{
+    background: url('../Images/Assignment Logo3.png') no-repeat scroll center top transparent;
+    height: 100px;
+    width: 100px;
+}
+
+aside 
+{
+    text-align:center;
+}
 footer 
 {
     text-align:center;
+    margin:5em;
 }
 
 #slider { background: url(spinner.gif) center center #f4f4f4; height: 300px; }  

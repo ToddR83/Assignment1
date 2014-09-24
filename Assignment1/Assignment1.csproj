@@ -67,6 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contact Me.html" />
+    <Content Include="Images\Assignment Logo3.png" />
+    <Content Include="Images\Todd Raymond Resume.png" />
     <Content Include="humans.txt" />
     <Content Include="Images\Assignment Logo.png" />
     <Content Include="Images\placeholder1.jpg" />
