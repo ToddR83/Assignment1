@@ -2,8 +2,10 @@
     Name: Todd Raymond
     Website: "Todd Raymond's Portfolio" www.toddraymond.com
     Date: Sept 24th 2014
+    File Name: Assignment1
     Desc: Here I take information from my html pages and change how they look.
 */
+
 
 body 
 {
@@ -14,6 +16,12 @@ body
 
 meta.foundation-data-attribute-namespace {
   font-family: false; }
+
+h3 
+{
+    margin-top:2em;
+    margin-bottom:2em;
+}
 
 h4 
 {
