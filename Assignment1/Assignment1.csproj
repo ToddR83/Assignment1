@@ -76,6 +76,12 @@
     <Content Include="Images\html and css.png" />
     <Content Include="Images\Java.png" />
     <Content Include="Images\javasript.png" />
+    <Content Include="Images\nbAboutMe.png" />
+    <Content Include="Images\nbContactMe.png" />
+    <Content Include="Images\nbGitHub.png" />
+    <Content Include="Images\nbHome.png" />
+    <Content Include="Images\nbMyProjects.png" />
+    <Content Include="Images\nbServices.png" />
     <Content Include="Images\Todd Raymond Resume.png" />
     <Content Include="humans.txt" />
     <Content Include="Images\Unity.png" />
