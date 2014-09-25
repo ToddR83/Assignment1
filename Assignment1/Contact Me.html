@@ -79,9 +79,28 @@
         </div>
     </div>
 
-    
+    <form action="mailto:toddraymond@toddraymond.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Contact Me</legend>
+            <p>
+                <label>Name: <input type="text" name="name"  required maxlength="25" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email" required /></label>
+            </p>
+            
+            <p>
+                <label>Message:
+                    <textarea name="message" cols="50" rows="5" maxlength="1000"></textarea>
+                </label>
+            </p>
 
+            <p>
+                <input type="submit" value="Send Message"/>
+            </p>
 
+        </fieldset>
+    </form>
 
     <!--JavaScript lives here-->
     <script src="Scripts/jquery.min.js"></script>
